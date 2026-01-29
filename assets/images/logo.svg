@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <linearGradient id="goldMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e17a"/>
+      <stop offset="50%" style="stop-color:#d4af37"/>
+      <stop offset="100%" style="stop-color:#a08020"/>
+    </linearGradient>
+    <linearGradient id="goldVertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0d860"/>
+      <stop offset="100%" style="stop-color:#b8960f"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8c84a"/>
+      <stop offset="100%" style="stop-color:#c9a227"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main V Shape - Bold Geometric -->
+  <g transform="translate(90, 70)">
+    <!-- Left arm of V -->
+    <polygon points="-50,-45 -35,-45 0,35 -15,35" fill="url(#goldMain)"/>
+    <!-- Right arm of V -->
+    <polygon points="50,-45 35,-45 0,35 15,35" fill="url(#goldVertical)"/>
+  </g>
+
+  <!-- Accent line under V -->
+  <line x1="70" y1="115" x2="110" y2="115" stroke="#c9a227" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- VIDENTUR Text -->
+  <text x="90" y="140"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="18"
+        font-weight="300"
+        fill="url(#goldText)"
+        text-anchor="middle"
+        letter-spacing="6">VIDENTUR</text>
+
+  <!-- Investment Partners Text -->
+  <text x="90" y="158"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="9"
+        font-weight="300"
+        fill="#a0a0a0"
+        text-anchor="middle"
+        letter-spacing="2">INVESTMENT PARTNERS</text>
+</svg>
